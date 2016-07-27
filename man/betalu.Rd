@@ -47,7 +47,7 @@ generation for the general support beta distribution.
 The general support beta distribution with parameters shape1, 
 shape2, l, and u is the distribution of the random variable 
 Y = (u-l)*X + l where X ~ Beta(shape1, shape2).  For details 
-on that distribution, see \link{\code{dbeta}}.
+on that distribution, see \code{\link{dbeta}}.
 }
 \examples{
 
