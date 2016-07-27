@@ -1,0 +1,12 @@
+Package: betalu
+Type: Package
+Title: The Four Parameter Beta Distribution
+Version: 0.0
+URL: https://github.com/dkahle/betalu
+BugReports: https://github.com/dkahle/betalu/issues
+Authors@R: person("David", "Kahle", email = "david.kahle@gmail.com", role = c("aut", "cre", "cph"))
+Description: Light weight implementation of the standard distribution functions
+  for the beta distribution with support [l,u], wrapping those for the beta
+  distribution in the stats package.
+License: GPL-2
+RoxygenNote: 5.0.1
