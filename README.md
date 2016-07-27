@@ -67,15 +67,15 @@ rbetalu(5, 5, 5, -1, 1)
 ```
 
 ``` r
-qplot(rbetalu(1e5, 5, 5, -1, 1), bins = 30)
+samples <- rbetalu(1e5, 5, 5, -1, 1)
+qplot(samples, bins = 30)
 ```
 
 ![](figures/README-unnamed-chunk-8-1.png) `rbetalu()` can be used to obtain a [Monte Carlo](https://en.wikipedia.org/wiki/Monte_Carlo_method) estimate of the probability given by `pbetalu()` above:
 
 ``` r
-samples <- rbetalu(1e5, 5, 5, -1, 1)
 mean(samples <= q)
-#  [1] 0.04945
+#  [1] 0.04853
 ```
 
 Moreover, we can check the consistency and correctness of the implementation with
