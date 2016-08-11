@@ -2,7 +2,7 @@
 **betalu**
 ==========
 
-**betalu** implements the `(d/p/q/r)` statistics functions for the [general support beta distribution](https://en.wikipedia.org/wiki/Beta_distribution) (also called the four parameter beta) in [R](http://cran.r-project.org). It is ideal for using in other packages since it is light weight and leverages the `(d/p/q/r)beta()` line of functions maintained by CRAN.
+**betalu** implements the `(d/p/q/r)` statistics functions for the [beta distribution with support \[l,u\]](https://en.wikipedia.org/wiki/Beta_distribution) (also called the four parameter beta) in [R](http://cran.r-project.org). It is ideal for using in other packages since it is light weight and leverages the `(d/p/q/r)beta()` line of functions maintained by CRAN.
 
 ### Getting **betalu**
 
