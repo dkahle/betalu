@@ -1,6 +1,6 @@
 Package: betalu
 Type: Package
-Title: The Four Parameter Beta Distribution
+Title: The Beta Distribution with Support [l,u]
 Version: 0.0
 URL: https://github.com/dkahle/betalu
 BugReports: https://github.com/dkahle/betalu/issues
